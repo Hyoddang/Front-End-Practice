@@ -1,0 +1,120 @@
+.text {
+    font: bold;
+    color: #000000;
+    text-align: center;
+    font-family:'Gamja Flower';
+}
+
+.body {
+    margin: 0px;
+    /* padding: 0px 250px 0px 250px; */
+    background-color: #ffddff;
+}
+
+.container {
+    box-sizing: border-box;
+    background-color: #ffddff;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 150px 0px 150px;
+    border: #ADADAD 0px 0px 1px 0px;
+}
+
+.misa {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: flex-end;
+}
+
+.mintja {
+    box-sizing: content-box;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.mika {
+    padding: 0px 17px 0px 0px;
+}
+
+.sakura {
+    padding: 0px 13px 0px 0px;
+}
+
+.mint {
+    padding: 0px 0px 0px 56px;
+}
+
+.japanwear {
+    padding: 0px 0px 0px 20px;
+}
+
+.bottom {
+    background-color: #ffddff;
+    padding: 0px 400px 0px 400px;
+}
+
+.buttons {
+    padding: 10px 0px 5px 0px;
+    /* align-content: space-between; */
+    justify-content: space-around;
+    flex-wrap: row wrap;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    padding: 0px;
+    background-color: #9AB9FF;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.commission {
+    background-color: #9AB9FF;
+}
+
+.merong {
+    border-radius: 50%;
+}
+
+.instargram {
+    background-color: #9AB9FF;
+}
+
+.insta {
+    border-radius: 50%;
+}
+
+.twitter {
+    background-color: #9AB9FF;
+}
+
+.twit {
+    border-radius: 50%;
+}
+
+.Nblog {
+    background-color: #9AB9FF;
+}
+
+.naver {
+    border-radius: 50%;
+}
+
+.ask {
+    background-color: #9AB9FF;
+}
+
+.asked {
+    border-radius: 50%;
+}

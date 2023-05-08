@@ -1,0 +1,53 @@
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+}
+
+.items1{
+    background: #ef9a9a;
+}
+
+.items2{
+    background: #f48fb1;
+}
+
+.items3{
+    background: #ce93d8;
+}
+
+.items4{
+    background: #b39ddb;
+}
+
+.items5{
+    background: #90caf9;
+}
+
+.items6{
+    background: #a5d6a7;
+}
+
+.items7{
+    background: #e6ee9c;
+}
+
+.items8{
+    background: #fff59d;
+}
+
+.items9{
+    background: #ffcc80;
+}
+
+.items10{
+    background: #ffab91;
+}
