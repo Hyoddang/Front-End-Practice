@@ -1,53 +1,61 @@
-.container {
-    background: beige;
-    height: 100vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+/* 외부 스타일 시트 (styles.css) */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
 }
 
-.item {
-    width: 80px;
-    height: 80px;
-    border: 2px solid black;
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.items1{
-    background: #ef9a9a;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.items2{
-    background: #f48fb1;
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.items3{
-    background: #ce93d8;
+nav ul li a {
+    text-decoration: none;
+    color: #333;
 }
 
-.items4{
-    background: #b39ddb;
+main {
+    margin-top: 20px;
 }
 
-.items5{
-    background: #90caf9;
+article {
+    padding: 10px;
+    background-color: #f5f5f5;
 }
 
-.items6{
-    background: #a5d6a7;
+h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.items7{
-    background: #e6ee9c;
+footer {
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
 }
 
-.items8{
-    background: #fff59d;
+/* 인라인 스타일 */
+header {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+/* 
+<style>section {
+    margin-bottom: 10px;
 }
 
-.items9{
-    background: #ffcc80;
-}
-
-.items10{
-    background: #ffab91;
-}
+</style> */

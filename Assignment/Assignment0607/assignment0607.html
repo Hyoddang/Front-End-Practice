@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 06 07</title>
+    <link rel="stylesheet" href="assignment0607style.css">
+</head>
+<body>
+    <header>
+        <p id="title">Welcome to My Website</p>
+
+        <nav>
+            <p id="nav"><a href="#">Section 1</a>
+            <a href="#">Section 2</a></p>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+        <h2>Section 1</h2>
+        </section>
+        <div>
+            <table>
+                <tr align="left">
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="box">
+            <h4>150 x 150</h4>
+        </div>
+
+        <section>
+            <h2>Section 2</h2>
+        </section>
+
+        <div class="image">
+        <a href="#"><img src="/Assignment/assignmentImage/몽환적인 하늘.jpg" alt="상대경로 이미지"></a>
+        <a href="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeFxmqN%2FbtquZFlxvLG%2FIKittvt0eFXbhGhj2MuJOK%2Fimg.jpg" target="_blank"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeFxmqN%2FbtquZFlxvLG%2FIKittvt0eFXbhGhj2MuJOK%2Fimg.jpg" alt="절대경로 이미지"></a>
+        </div>
+
+        <div class="information">
+            <fieldset>
+                <legend>Persenal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" autofocus placeholder="필수 입력란" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="8자 ~ 12자" required>
+                <label for="email">E-Mail:</label>
+                <input type="email" name="email" id="email" placeholder="필수 입력란" required>
+                <label for="survey">Do you like this form?</label>
+                <input type="radio" name="survey" id="survey_y">
+                Yes
+                <input type="radio" name="survey" id="survey_n">
+                No <br />
+                <label for="comments">Comments: </label>
+                <textarea name="comments" id="comments" cols="" rows="3"></textarea>
+                <input type="submit" value="Submit" id="button">
+            </fieldset>
+        </div>
+    </main>
+</body>
+</html>

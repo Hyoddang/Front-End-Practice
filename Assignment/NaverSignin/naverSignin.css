@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.display, .naver_header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.naver_header_logo_select {
+    position: relative;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 0px 48px;
+    width: 743px;
+    
+}
+
+.language_select {
+    position: relative;
+    z-index: 1;
+}
+
+.naver_logo {
+    display: block;
+    position: relative;
+    padding-top: 108px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    width: 154;
+    height: 55;
+    margin: 0;
+}
+
+#naver_logo {
+    color: #2db400;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#disappear, .disappear, #QR_text {
+    display: none;
+}
+
+#language_select {
+    border: 1px solid rgb(199, 199, 199);
+    height: 30px;
+    width: 95px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0px;
+    /* position: absolute; */
+}
+
+ul {
+    list-style-type: none;
+}
