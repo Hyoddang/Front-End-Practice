@@ -8,15 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ccb0a2168.js" crossorigin="anonymous"></script>
 </head>
 <div class="display">   
     <body>
         <header class="naver_header">
             <div class="naver_header_logo_select">
                 <a href="#" id="disappear">본문 바로가기</a>
-                <div class="naver_logo">
                     <h1><a href="#" id="naver_logo">NAVER</a></h1>
-                </div>
                 <div class="language_select">
                     <select name="" id="language_select">
                         <option value="kr">한국어</option>
@@ -28,58 +27,70 @@
         </header>
 
         <main class="naver_main">
-            <div>
+            <div class="disappear">
                 <ul>
                     <li><a href="#">ID 로그인</a></li>
                     <li><a href="#">일회용 번호</a></li>
                     <li><a href="#">QR코드</a></li>
                     <span id="QR_text">PC방 등 공용PC라면 QR코드 로그인이 더 안전해요.</span>
+                </ul>
             </div>
 
-            </ul>
-            <div class="signup">
-                <ul>
-                    <li>
-                        <form action="">
-                        <span id="signin_id_text">아이디</span>
-                        <div class="input_id">
-                            <input type="text" placeholder="아이디" autofocus> <span id="disappear">삭제</span>
-                        </div>
-                        <span id="signin_password_text">비밀번호</span>
-                        <div>
-                            <input type="password" placeholder="비밀번호"> <span id="disappear">삭제</span>
-                        </div>
-                        <div>
-                            <input type="checkbox"> 로그인 상태 유지
-                        </div>
-                        <div>
-                            <a href="#">IP보안</a>
-                            <input type="checkbox"> off
-                        </div>
-                        <div class="disappear capslock">
-                            <strong>CapsLock</strong>이 켜져 있습니다.
-                        </div>
-                        <div class="disappear id">
-                            <strong>아이디</strong>를 입력해 주세요.
-                        </div>
-                        <div class="disappear password">
-                            <strong>비밀번호</strong>를 입력해 주세요.
-                        </div>
-                        <button type="submit">로그인</button>
-                    </form>
-                    </li>
-                </ul>
-                <ul>
-                    <li><a href="#">비밀번호 찾기</a></li>
-                    <li><a href="#">아이디 찾기</a></li>
-                    <li><a href="#">회원가입</a></li>
-                </ul>
-                <a href="#"><img src="/Assignment/NaverSignin/NaverAdImages/naver_ad_banner.png" alt="Advertisement" style="width: 300px; height: auto;"></a>
+            <div class="container">
+                <div class="signin">
+                    <ul class="signin_box">
+                        <li class="signin_input_box">
+                            <form action="">
+                            <!-- <span id="signin_id_text">아이디</span> -->
+                            <div class="input_id">
+                                <!-- <div class="input_icon">
+                                    <i class="fa-regular fa-user"></i>
+                                </div> -->
+                                <input type="text" placeholder="아이디" autofocus>
+                                <span id="disappear">삭제</span>
+                            </div>
+                            <!-- <span id="signin_password_text">비밀번호</span> -->
+                            <div class="input_pw">
+                                <!-- <div class="input_icon">
+                                    <i class="fa-solid fa-key"></i>
+                                </div> -->
+                                <input type="password" placeholder="비밀번호"> <span id="disappear">삭제</span>
+                            </div>
+                            <div class="log_checkbox">
+                                <input type="checkbox"> 로그인 상태 유지
+                            </div>
+                            <!-- 기술 부족 이슈 -->
+                            <div class="disappear">
+                                <a href="#">IP보안</a>
+                                <input type="checkbox"> off
+                            </div>
+                            <div class="disappear capslock">
+                                <strong>CapsLock</strong>이 켜져 있습니다.
+                            </div>
+                            <div class="disappear id">
+                                <strong>아이디</strong>를 입력해 주세요.
+                            </div>
+                            <div class="disappear password">
+                                <strong>비밀번호</strong>를 입력해 주세요.
+                            </div>
+                            <button type="submit">로그인</button>
+                        </form>
+                        </li>
+                    </ul>
+                    <div class="find_wrap">
+                        <ul class="find_item">
+                            <li><a href="#">비밀번호 찾기</a></li>
+                            <li><a href="#">아이디 찾기</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                    </div>
+                    <a href="#"><img src="/Assignment/NaverSignin/NaverAdImages/naver_ad_banner.png" alt="Advertisement" style="width: 300px; height: auto;"></a>
+                </div>
             </div>
             
         </main>
 
-        <footer>
+        <footer class="footer">
             <ul>
                 <li><a href="#">이용약관</a></li>
                 <li><a href="#"><b>개인정보처리방침</b></a></li>
@@ -91,3 +102,6 @@
     </body>
 </div>
 </html>
+
+<!-- <i class="fa-regular fa-user"></i> USER Icon -->
+<!-- <i class="fa-solid fa-key"></i> Key Icon -->
