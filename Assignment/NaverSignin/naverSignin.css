@@ -50,15 +50,14 @@ body {
 }
 
 #naver_logo {
+    background-image: url(https://ssl.pstatic.net/static/nid/login/m_sp_00_common_978240a6.png);
     display: inline-block;
-    position: relative;
-    margin-top: 108px;
-    text-align: center;
-    font-weight: bold;
-    color: #2db400;
-    font-family: 'Nanum Gothic', sans-serif;
+    background-size: 244px 107px;
+    background-position: 0 -51px;
+    background-repeat: no-repeat;
     width: 155px;
     height: 30px;
+    margin-top: 108px;
 }
 
 #language_select {
@@ -124,7 +123,9 @@ ul {
     line-height: 19px;
     border: none;
     font-size: 16px;
-    color: #dadada;
+    color: black;
+    cursor: pointer;
+    outline: none;
 }
 
 .input_icon {
@@ -142,14 +143,25 @@ ul {
 }
 
 .find_item {
-    display: inline-block;
+    display: flex;
     position: relative;
     padding: 20px 0 35px;
-    text-align: center;
+    justify-content: center;
+}
+
+li a {
+    color: #888888;
+}
+
+.find_item li+li {
+    display: inline-block;
+    justify-content: start;
+    padding-left: 28px;
 }
 
 #log_checkbox {
     display: none;
+    
 }
 
 #id_icon, #pw_icon {
@@ -178,7 +190,7 @@ ul {
     list-style-type: none;
 }
 
-#disappear, .disappear, #QR_text {
+#disappear, .disappear, #QR_text, h1 {
     display: none;
 }
 
@@ -194,12 +206,72 @@ button {
     font-weight: 700;
     line-height: 24px;
     margin-top: 38px;
+    cursor: pointer;
 }
 
 .img_banner {
     position: relative;
-    display: block;
+    display: flex;
     justify-content: center;
     width: 100%;
     height: auto;
+}
+
+img {
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 63px 0px 32px;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.footer_list {
+    display: flex;
+}
+
+.footer_list li+li {
+    padding-left: 13px;
+}
+
+footer .footer_copy a  {
+    color: #2db400;
+}
+
+.footer_copy {
+    color: #888888;
+    margin-top: 9px;
+}
+
+#copy {
+    color: #222;
+}
+
+.footer_inner .footer_list, .footer_copy {
+    font-size: 12px;
+}
+
+.footer_copy a {
+    display: none;
+}
+
+.copy_logo {
+    background-image: url(https://ssl.pstatic.net/static/nid/login/m_sp_00_common_978240a6.png);
+    display: inline-block;
+    background-size: 244px 107px;
+    background-position: -157px -51px;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 15px;
+    cursor: pointer;
 }

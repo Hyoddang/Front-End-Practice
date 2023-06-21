@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="log_checkbox">
                                     <i class="fa-regular fa-circle-check" id="log_checkbox_icon"></i>
-                                    <input type="checkbox" id="log_checkbox"> 로그인 상태 유지
+                                    <input type="radio" id="log_checkbox"> 로그인 상태 유지
                                 </div>
                                 <!-- 기술 부족 이슈 -->
                                 <div class="disappear">
@@ -97,13 +97,20 @@
         </main>
 
         <footer class="footer">
-            <ul>
-                <li><a href="#">이용약관</a></li>
-                <li><a href="#"><b>개인정보처리방침</b></a></li>
-                <li><a href="#">책임의 한계와 법적고지</a></li>
-                <li><a href="#">회원정보 고객센터</a></li>
-            </ul>
-            <a href="#">네이버</a> Copyright &copy; NAVER Corp. All Rights Reserved.
+            <div class="footer_inner">
+                <ul class="footer_list">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#"><b>개인정보처리방침</b></a></li>
+                    <li><a href="#">책임의 한계와 법적고지</a></li>
+                    <li><a href="#">회원정보 고객센터</a></li>
+                </ul>
+            </div>
+            <div class="footer_copy">
+                <a href="#">네이버</a>
+                <span class="copy_logo"></span> <span id="copyright">Copyright</span> 
+                &copy; <span id="copy">NAVER Corp.</span> 
+                <span id="reserved">All Rights Reserved.</span>
+            </div>
         </footer>
     </div>
 </body>
