@@ -7,7 +7,7 @@ let num;
 let num2;
 
 for (let num = 1; num < 10; num++) {
-    document.write(` ${index}단`);
+    document.write(` ${num}단`);
     for (let num2 = 1; num2 < 10; num2++) {
         document.write(` ${num} X ${num2} = ${num * num2}`);
     }
