@@ -111,7 +111,7 @@ a {
 }
 
 #advice_b {
-    /* position: relative; */
+    position: relative;
     display: flex;
     margin: 0 auto;
     width: 1200px;
@@ -121,14 +121,16 @@ a {
 #advice_b #banner {
     height: 100%;
     width: auto;
+    border-radius: 6px;
 }
 
 #consult {
     position: relative;
     display: flex;
     width: 100%;
-    height: auto;
+    height: 100%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .home {
@@ -183,9 +185,55 @@ a {
 }
 
 .more_law_box {
-    background-color: black;
-    height: 250px;
-    width: 100%;
+    position: relative;
+    background-color: white;
+    width: 98%;
+    height: 220px;
+    border-radius: 6px;
+}
+
+.more {
+    display: flex;
+    background-color: rgb(133, 146, 153);
+    color: white;
+    height: 23%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more span {
+    padding-left: 40px;
+}
+
+.more_next_prev {
+    padding-right: 20px;
+}
+.more_next_prev img {
+    padding-right: 20px;
+}
+
+.more_law {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-top: 10px;
+    height: 150px;
+    width: 130px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 13px 0px 20px -20px;
+}
+
+.box span {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #search {
