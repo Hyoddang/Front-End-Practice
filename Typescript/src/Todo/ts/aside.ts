@@ -55,11 +55,11 @@ class AsideEvent {
 
                 // mainContainers의 각 요소에 대해 반복문을 실행하여 main-hidden 클래스를 추가
                 mainContainers.forEach(mainContainer => {
-                    mainContainer.classList.add('.main-hidden');
+                    mainContainer.classList.add('main-hidden');
                 });
 
                 // 클릭된 메뉴 아이템에 해당하는 mainContainers의 요소에서 main-hidden 클래스를 제거
-                mainContainers[index].classList.remove('.main-hidden');
+                mainContainers[index].classList.remove('main-hidden');
 
                 // menuAside에 hidden-menu 클래스를 추가하여 메뉴를 숨김
                 menuAside?.classList.add('hidden-menu');
