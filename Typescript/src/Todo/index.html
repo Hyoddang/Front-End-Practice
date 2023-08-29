@@ -98,15 +98,19 @@
                     <button class="add-todo-button"><i class="fa-solid fa-plus"></i></button>
                 </div>
             </header>
+            <ul class="todo-content-list">
+
+            </ul>
         </main>
     </div>
     <div class="modal-container modal-hidden">
         <div class="modal-section">
             <div class="modal-header">
-                <h1 class="modal-title">ToDo 삭제</h1>
+                <h1 class="modal-title">ToDo 수정</h1>
             </div>
             <div class="modal-main">
-                <p class="modal-message">ToDo를 삭제하시겠습니까?</p>
+                <p class="modal-message"></p>
+                <input type="text" class="todo-modify-input" value="">
             </div>
             <div class="modal-footer">
                 <button type="button" class="modal-ok-button">확인</button>
@@ -117,6 +121,8 @@
     <script src="./ts/aside.js"></script>
     <script src="./ts/app.js"></script>
     <script src="./ts/information.js"></script>
+    <script src="./ts/modal.js"></script>
+    <script src="./ts/todo.js"></script>
     
 </body>
 </html>
