@@ -61,7 +61,7 @@ var ModalService = /** @class */ (function () {
     ModalService.prototype.showModal = function () {
         var modalContainer = document.querySelector('.modal-container');
         if (modalContainer) {
-            modalContainer.classList.remove('.modal-hidden');
+            modalContainer.classList.remove('modal-hidden');
         }
     };
     // 모달을 숨기기 위한 메서드

@@ -73,7 +73,7 @@ class ModalService {
     const modalContainer: HTMLElement | null = document.querySelector('.modal-container');
 
     if (modalContainer) {
-      modalContainer.classList.remove('.modal-hidden');
+      modalContainer.classList.remove('modal-hidden');
     }
   }
 

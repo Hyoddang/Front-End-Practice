@@ -164,7 +164,7 @@ class TodoService {
             <li class='content-container'>
                 <div class='content-header'>
                     <div class='todo-date'>${todoObj.todoDate}</div>
-                    <div class ='todo-date-time'>${todoObj.todoDateTime}</div>
+                    <div class='todo-date-time'>${todoObj.todoDateTime}</div>
                 </div>
                 <div class='content-main'>
                     ${todoObj.todoContent}
